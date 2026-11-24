@@ -2,9 +2,24 @@
 
 *English: [README.md](README.md)*
 
+<!-- byline -->
+Ein Plugin von **Akrota und Claude**.
+
+<!-- lang-note -->
+*Funktioniert auf **Deutsch und Englisch**: Menüs und Texte richten sich nach der KOReader-Sprache.*
+
 Ein KOReader-Plugin, das Comic-Ordner zu **Reihen mit Bandnummern** macht. Liegen deine Comics in Ordnern wie `Akira/Akira 01.cbz`, trägt das Plugin für jeden Comic Reihe und Nummer ein, schiebt die Comics eine Ebene höher und löscht den leeren Ordner. Bibliotheken, die Reihen als Stapel zeigen (zum Beispiel ZenOS), zeigen dann einen Stapel pro Reihe statt eines Ordners.
 
 **Status: Prototyp / Beta.** Das Plugin verschiebt und löscht Dateien. Lies zuerst „Wichtig“ und probiere es an einem kleinen Ordner aus.
+
+## Bildschirmfotos
+
+*Die Bildschirmfotos zeigen die englische Oberfläche; in einem deutschen KOReader sind die Texte deutsch.*
+
+<table>
+<tr><td align="center" valign="top" width="33%"><img src="docs/screenshots/menu.png" width="260" alt="Einträge im Werkzeuge-Menü für den offenen Ordner"><br><sub>Einträge im Werkzeuge-Menü für den offenen Ordner</sub></td><td align="center" valign="top" width="33%"><img src="docs/screenshots/folder-dialog.png" width="260" alt="Dialog beim langen Drücken auf einen Ordner mit den zusätzlichen Knöpfen"><br><sub>Dialog beim langen Drücken auf einen Ordner mit den zusätzlichen Knöpfen</sub></td><td align="center" valign="top" width="33%"><img src="docs/screenshots/preview.png" width="260" alt="Vorschau, bevor ein Ordner zur Reihe wird"><br><sub>Vorschau, bevor ein Ordner zur Reihe wird</sub></td></tr>
+<tr><td align="center" valign="top" width="33%"><img src="docs/screenshots/preview-subfolders.png" width="260" alt="Vorschau für mehrere Unterordner"><br><sub>Vorschau für mehrere Unterordner</sub></td><td align="center" valign="top" width="33%"><img src="docs/screenshots/preview-loose.png" width="260" alt="Reihen, die unter losen Comics gefunden wurden"><br><sub>Reihen, die unter losen Comics gefunden wurden</sub></td><td align="center" valign="top" width="33%"><img src="docs/screenshots/how-it-works.png" width="260" alt="Hilfetext"><br><sub>Hilfetext</sub></td></tr>
+</table>
 
 ## Funktionen
 
@@ -66,6 +81,19 @@ Im Ordner `tests` liegt der automatische Test aus der Entwicklung (`2-ozr-test.l
 Den Code hat vollständig **Claude** geschrieben, eine KI von Anthropic (in Claude Code). Der Inhaber dieses Projekts hatte die Idee, hat das Plugin auf einem Kobo getestet und Rückmeldungen gegeben, aber keinen Code geschrieben.
 
 Keine Gewährleistung und kein garantierter Support. Fehlermeldungen gern als [Issue](../../issues). Bitte `crash.log` aus dem KOReader-Ordner anhängen.
+
+## Weitere Plugins von Akrota und Claude
+
+- [Comic Display](https://github.com/Akrota/koreader-comic-display): Refresh gegen Ghosting, dunkle Ränder und Uhr für Comics
+- [Levels / Tonwerte](https://github.com/Akrota/koreader-comic-levels): Tonwertkurve für Comics
+- [Comic Panel Zoom](https://github.com/Akrota/koreader-comic-panel-zoom): Panel-für-Panel-Ansicht (Fork von JorgeTheFox)
+- [Comic Dual Page](https://github.com/Akrota/koreader-comic-dual-page): Doppelseiten mit Erkennung (Fork von KORComic)
+- [CBZ Converter](https://github.com/Akrota/koreader-cbz-converter): Comics, PDF und EPUB auf dem Gerät in CBZ umwandeln
+- [Drive Library](https://github.com/Akrota/koreader-drive-library): Google Drive als Cloud-Bibliothek
+- [Story Recall](https://github.com/Akrota/koreader-story-recall): Spoilerfreier KI-Rückblick auf Bücher
+- [Guitar Tab Reader](https://github.com/Akrota/koreader-guitar-tab-reader): Gitarren-Tabs und Chords für E-Ink
+- [Wi-Fi while charging](https://github.com/Akrota/koreader-wifi-while-charging): WLAN anlassen, solange das Gerät lädt
+- [Zen page browser gesture](https://github.com/Akrota/koreader-zen-page-browser-gesture): Geste für den ZenOS-Seitenbrowser
 
 ## Lizenz
 

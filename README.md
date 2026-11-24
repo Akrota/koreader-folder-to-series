@@ -2,9 +2,24 @@
 
 *Deutsch: [README.de.md](README.de.md)*
 
+<!-- byline -->
+A plugin by **Akrota and Claude**.
+
+<!-- lang-note -->
+*Works in **English and German**: menus and texts follow KOReader's language. A German description is at the bottom of this page.*
+
 A KOReader plugin that turns comic folders into **series with volume numbers**. If your comics lie in folders like `Akira/Akira 01.cbz`, this sets series and number for each comic, moves the comics one level up and removes the empty folder. Libraries that show series as stacks (like ZenOS) then show one stack per series instead of a folder.
 
 **Status: prototype / beta.** It moves and deletes files. Read "Important" first and try it on a small folder.
+
+## Screenshots
+
+*The screenshots show the English interface; in a German KOReader the texts are German.*
+
+<table>
+<tr><td align="center" valign="top" width="33%"><img src="docs/screenshots/menu.png" width="260" alt="Tools menu entries for the open folder"><br><sub>Tools menu entries for the open folder</sub></td><td align="center" valign="top" width="33%"><img src="docs/screenshots/folder-dialog.png" width="260" alt="Long-press dialog on a folder with the added buttons"><br><sub>Long-press dialog on a folder with the added buttons</sub></td><td align="center" valign="top" width="33%"><img src="docs/screenshots/preview.png" width="260" alt="Preview before combining a folder as a series"><br><sub>Preview before combining a folder as a series</sub></td></tr>
+<tr><td align="center" valign="top" width="33%"><img src="docs/screenshots/preview-subfolders.png" width="260" alt="Preview for combining several subfolders"><br><sub>Preview for combining several subfolders</sub></td><td align="center" valign="top" width="33%"><img src="docs/screenshots/preview-loose.png" width="260" alt="Series found among loose comics"><br><sub>Series found among loose comics</sub></td><td align="center" valign="top" width="33%"><img src="docs/screenshots/how-it-works.png" width="260" alt="Help text"><br><sub>Help text</sub></td></tr>
+</table>
 
 ## Features
 
@@ -67,6 +82,29 @@ The code was written entirely by **Claude**, an AI by Anthropic (in Claude Code)
 
 There is no warranty and no guaranteed support. Bug reports are welcome as [issues](../../issues). Please attach `crash.log` from the KOReader folder.
 
+## More plugins by Akrota and Claude
+
+- [Comic Display](https://github.com/Akrota/koreader-comic-display): Refresh against ghosting, dark borders and a clock for comics
+- [Levels / Tonwerte](https://github.com/Akrota/koreader-comic-levels): Tone curve for comics
+- [Comic Panel Zoom](https://github.com/Akrota/koreader-comic-panel-zoom): Panel-by-panel view (fork of JorgeTheFox's plugin)
+- [Comic Dual Page](https://github.com/Akrota/koreader-comic-dual-page): Double pages with detection (fork of KORComic)
+- [CBZ Converter](https://github.com/Akrota/koreader-cbz-converter): Convert comics, PDF and EPUB to CBZ on the device
+- [Drive Library](https://github.com/Akrota/koreader-drive-library): Google Drive as a cloud library
+- [Story Recall](https://github.com/Akrota/koreader-story-recall): Spoiler-free AI recap for books
+- [Guitar Tab Reader](https://github.com/Akrota/koreader-guitar-tab-reader): Guitar tabs and chords for e-ink
+- [Wi-Fi while charging](https://github.com/Akrota/koreader-wifi-while-charging): Keep Wi-Fi on while charging
+- [Zen page browser gesture](https://github.com/Akrota/koreader-zen-page-browser-gesture): Gesture for the ZenOS page browser
+
 ## License
 
 [MIT](LICENSE)
+
+---
+
+## Deutsch (Kurzbeschreibung)
+
+Ein KOReader-Plugin, das Comic-Ordner zu **Reihen mit Bandnummern** macht. Liegen deine Comics in Ordnern wie `Akira/Akira 01.cbz`, trägt das Plugin für jeden Comic Reihe und Nummer ein, schiebt die Comics eine Ebene höher und löscht den leeren Ordner. Bibliotheken, die Reihen als Stapel zeigen (zum Beispiel ZenOS), zeigen dann einen Stapel pro Reihe statt eines Ordners.
+
+**Status: Prototyp / Beta.** Das Plugin verschiebt und löscht Dateien. Lies zuerst „Wichtig“ und probiere es an einem kleinen Ordner aus.
+
+Die ausführliche deutsche Anleitung steht in der [README.de.md](README.de.md).
